@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="V1d-gi-Aqe">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Budget-->
+        <scene sceneID="LHe-Pj-QH2">
+            <objects>
+                <viewController id="5vn-Ve-Xv0" customClass="BudgetViewController" customModule="PlatziFinanzas" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L9i-mt-xpo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Qf1-KZ-rgb">
+                                <rect key="frame" x="0.0" y="140" width="414" height="673"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="Lhf-rh-Mj1">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="62"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GP9-iu-92J">
+                                            <rect key="frame" x="57" y="6" width="100" height="50"/>
+                                            <color key="backgroundColor" name="GreenColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="Dkg-SK-XPP"/>
+                                                <constraint firstAttribute="width" constant="100" id="OYE-hl-kw1"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="22"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="KGF-iU-5yQ">
+                                            <rect key="frame" x="57" y="6" width="300" height="50"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFO-Ao-37j">
+                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
+                                                    <color key="tintColor" red="0.1215686277" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <state key="normal" title="INCOMING">
+                                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="animateHeaderWithSender:" destination="5vn-Ve-Xv0" eventType="touchUpInside" id="U88-u6-hcu"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XGp-6Y-pq1">
+                                                    <rect key="frame" x="100" y="0.0" width="100" height="50"/>
+                                                    <color key="tintColor" red="0.1215686277" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <state key="normal" title="ALL">
+                                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="animateHeaderWithSender:" destination="5vn-Ve-Xv0" eventType="touchUpInside" id="dCs-m1-N4N"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIe-Lv-FWy">
+                                                    <rect key="frame" x="200" y="0.0" width="100" height="50"/>
+                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <state key="normal" title="EXPENSES">
+                                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="animateHeaderWithSender:" destination="5vn-Ve-Xv0" eventType="touchUpInside" id="xKu-gA-tg0"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="300" id="2oe-at-HrM"/>
+                                                <constraint firstAttribute="height" constant="50" id="6te-0B-0mA"/>
+                                            </constraints>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="KGF-iU-5yQ" firstAttribute="centerY" secondItem="Lhf-rh-Mj1" secondAttribute="centerY" id="2gb-35-fdg"/>
+                                        <constraint firstItem="GP9-iu-92J" firstAttribute="leading" secondItem="KGF-iU-5yQ" secondAttribute="leading" id="DXZ-tk-vD9"/>
+                                        <constraint firstItem="KGF-iU-5yQ" firstAttribute="centerX" secondItem="Lhf-rh-Mj1" secondAttribute="centerX" id="Ree-Ze-CXd"/>
+                                        <constraint firstItem="GP9-iu-92J" firstAttribute="centerY" secondItem="Lhf-rh-Mj1" secondAttribute="centerY" id="gi8-cu-GXf"/>
+                                    </constraints>
+                                </view>
+                                <connections>
+                                    <outlet property="dataSource" destination="5vn-Ve-Xv0" id="8cW-t3-eTw"/>
+                                    <outlet property="delegate" destination="5vn-Ve-Xv0" id="Dje-Aa-f2K"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="DWc-W1-kRn" firstAttribute="trailing" secondItem="Qf1-KZ-rgb" secondAttribute="trailing" id="4fv-Va-bDK"/>
+                            <constraint firstItem="Qf1-KZ-rgb" firstAttribute="top" secondItem="DWc-W1-kRn" secondAttribute="top" id="CI8-pS-hzc"/>
+                            <constraint firstItem="DWc-W1-kRn" firstAttribute="bottom" secondItem="Qf1-KZ-rgb" secondAttribute="bottom" id="Dtx-QM-ffD"/>
+                            <constraint firstItem="Qf1-KZ-rgb" firstAttribute="leading" secondItem="DWc-W1-kRn" secondAttribute="leading" id="u6u-XR-xU4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DWc-W1-kRn"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Budget" id="ehD-Hk-aBQ"/>
+                    <connections>
+                        <outlet property="animationLayout" destination="DXZ-tk-vD9" id="M3M-au-i8a"/>
+                        <outlet property="tableView" destination="Qf1-KZ-rgb" id="KF3-W6-TMB"/>
+                        <outletCollection property="animationsButton" destination="cFO-Ao-37j" collectionClass="NSMutableArray" id="dOh-9E-RrG"/>
+                        <outletCollection property="animationsButton" destination="XGp-6Y-pq1" collectionClass="NSMutableArray" id="C3X-b3-lKn"/>
+                        <outletCollection property="animationsButton" destination="tIe-Lv-FWy" collectionClass="NSMutableArray" id="I8r-Sq-g48"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aad-xT-e0g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-222" y="-416"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1hr-iX-m5H">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="V1d-gi-Aqe" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="TabBarBudget" id="5SK-Fk-flZ"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" largeTitles="YES" id="Cr6-6j-TMF">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" name="GreenColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="36"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="5vn-Ve-Xv0" kind="relationship" relationship="rootViewController" id="fzR-xo-rwX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4QE-KR-ktv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1230" y="-416"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TabBarBudget" width="20" height="26"/>
+        <namedColor name="GreenColor">
+            <color red="0.62352941176470589" green="0.74117647058823533" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

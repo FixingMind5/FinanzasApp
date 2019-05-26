@@ -1,0 +1,6 @@
+framework module Pods_PlatziFinanzas {
+  umbrella header "Pods-PlatziFinanzas-umbrella.h"
+
+  export *
+  module * { export * }
+}

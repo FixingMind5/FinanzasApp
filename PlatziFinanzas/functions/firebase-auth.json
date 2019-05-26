@@ -1,0 +1,15 @@
+{
+    "type": "service_account",
+    "project_id": "platzi-finanzas-31d69",
+    "private_key_id": "0d17aeaf2086bdc533407a67052da8fc3715fa74",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC8cmBAn6VYX/mo\nRNz9Lj5CfJm7GlLzt29pHhWcVOyR4nImcakCCks6bA1pqn8MuZZV2yoEjX37UeJf\nSnUsUlqqdCkWIpwiWHv+w8Ik3VA5f5GSUOo5cr6MNBN0MPn2coPFbdFrBOh2jBuf\nbByJdC49b7pg2jc6HOu9Ita4Nuwpct5od22I4auq+O9Zt6zX9oK+GTsVSxyVCBMV\nD1OKku/WaXn1nRNqdIjnWPwn0JEwY8gSeJE34c70OoNBRMTD3bfBDC36Fz2RYJNo\n13VMlre6SXe9dWsdxBTSa6h7UUuQDD72/uyX1QpXp+wOQTU3RSw4LeQJZXB4ZZuT\nGHsHhnp7AgMBAAECggEAUV5ppT3J3VEDsd6aNVAkXf0DPEDvlICeQJtW5Xvd8lf+\nxg7J1TGwrfc+C2QtG8d+3G+XwwN9ZGlE/7Rcx9h/gZ5Kp14mYMYoNCc+y0AshcdJ\nig4aNNgQ4uURiVgkdn+X2kXC6Rzja1ywCLRb1hYuaSS3K17N/e/C8pX6dOxyKKrN\nIv+HYBF02cUvhZAEZLOC5nnRzwXU7xn+KCN5Je3JpyszbhVWo3gF0QSQnxMqO4Gz\nnLKkpnAOLaInXDXHjpbeyodScItjOxMpTj74CU2cG/dKT1k3jFWt+Wf1mNefkCJ8\ny2iYUXY6Qg+u516V7QhNmDk304YGesEIzXIedPnWYQKBgQDdGDTYjHvfBeQcT4sx\nOsqW6zn6INDQLoeg46EwNJsOqlOW96iSo3GYKx71+bhgYjnDarOZbJxBmNEzXl1E\nSfd4heq5/dO2loEHM5NS4n6kzZ74e9A4RqWcM7NJpqlicSS0ofO+vgL1uNVNBsRC\nstVfJibzdJqpIk8QEk8G+B5U+QKBgQDaMqv4oOlBg/h18Zbe+Zw/QFjkM64sAVWk\n9haJletKYA80dC/XkBxixFjXDPfGI986pEZuKvEfu8XCUn4X4FbGHvDGE0MBLUuY\ntz6vkyHsAovKX5gAJbkAggHIiq4YRg69ZFsinU/rw3GddrYXhXKnczK05z5yucSD\nvJzWJr6MEwKBgHS4IL3pfEOC8qfXfl4g8W63A8Z+qH4e8k8HnMK8ItedJ7/dQssX\nKhLxQMkOaj3H3ULDA8mNQviGWnrJ6GbyvYiM+hvyWmBcGAXbPn1VQRJz0ubPRl9P\nPIK38ICDUYy8umn5zZn26c0bJNAjMF0d1/MBSzLfbf64NBEB+WJufmTRAoGAd8+v\nIlyo+DKQ8aJwp4sEQq8AoH3IO52X+3atNWs+wZ4xeyn5QzJ8g7cw2RTj0MbNwpOF\noOSvdi9TDbriRhYHT86Zgwn8lt7aTccBAsOVstRLEhqfiiUsipzYgde0dNuzKEe8\nyyr6QYkWD9Kpdgzuwge9Zhw77B8ZSwT8UZMAukUCgYEAlp6LCJbnozsYuuXTjQu/\nSeUddBxqzGBLBRYQnleWcPytUdxVkggE5LV4vuQmh5zaB41QhB2GDiTwa4ZnrUOO\nBBi1p+QIqfWHC49a9p7/7+PnymJtA+Eu2xn16ZhBMyv8BZHZCY1xvupzUHVVBkBP\ne/HEoTTfTgvkCjmDBITRQnY=\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-ys3zo@platzi-finanzas-31d69.iam.gserviceaccount.com",
+    "client_id": "110018108866628937600",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ys3zo%40platzi-finanzas-31d69.iam.gserviceaccount.com",
+    "facebook": {
+      "app_secret": "6274e5daabc5f99b3fdc41694ebf086f"
+    }
+  }

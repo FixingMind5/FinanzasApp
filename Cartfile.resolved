@@ -1,0 +1,6 @@
+binary "https://ton.twimg.com/syndication/twitterkit/ios/TwitterCore.json" "3.2.0"
+binary "https://ton.twimg.com/syndication/twitterkit/ios/TwitterKit.json" "3.4.2"
+github "BoltsFramework/Bolts-ObjC" "1.9.0"
+github "bizz84/SwiftyStoreKit" "0.14.2"
+github "facebook/facebook-ios-sdk" "v4.44.1"
+github "facebook/facebook-sdk-swift" "swift-4.1"
